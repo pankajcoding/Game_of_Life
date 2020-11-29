@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+input {
+  margin: 0px;
+  padding: 0;
+  height: 30px;
+  width: 30px;
+}
+input[type="checkbox"] {
+  appearance: none;
+  display: block;
+}
+input[type="checkbox"]:checked {
+  /* background-color: rgb(15, 15, 15); */
+  box-shadow: 0 0 0 20px #000 inset;
+}
+table {
+  margin: auto;
+  border-spacing: 0;
+}
+td {
+  border: 1px solid rgba(0, 0, 0, 0.63);
+}
+.button-panel {
+  margin-top: 50px;
+}
+button {
+  width: 100px;
+  height: 40px;
+}
+
+.container {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-size {
+  width: 100px;
+  margin: 30px;
+  padding: 12px;
+}
